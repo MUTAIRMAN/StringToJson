@@ -23,10 +23,11 @@ import com.google.gson.JsonParser;
 
 import junit.framework.Assert;
 
-public class NewTest {
+public class StringToJson {
 
 	WebDriver driver;
 
+	@SuppressWarnings("deprecation")
 	@Test
 	public void f() throws IOException, InterruptedException {
 
